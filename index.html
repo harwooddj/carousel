@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="carousel__item">
+                <img src="/images/waterfall-g3964735c3_640.jpg" alt="">
+                <h1>1</h1>
+            </div>
+            <div class="carousel__item">
+                <img src="/images/avenue-g5edf91d79_640.jpg" alt="">
+                <h1>2</h1>
+            </div>
+            <div class="carousel__item">
+                <img src="/images/forest-g3199991d9_640.jpg" alt="">
+                <h1>3</h1>
+            </div>
+        </div>
+        <div class="carousel__nav-buttons">
+            <button id="carousel__button--prev" aria-label="previousSlide"><</button>
+            <button id="carousel__button--next" aria-label="nextSlide">></button>
+        </div>
+    </div>
+    <div class="carousel__nav-dots">
+        <button class="carousel__dot current-item"></button>
+        <button class="carousel__dot"></button>
+        <button class="carousel__dot"></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
